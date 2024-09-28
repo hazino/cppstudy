@@ -9,14 +9,7 @@ void signalHanler(int signum) {
     cout << "signal:" << signum << endl;
     manager::getInstance()->stop();
 }
-
-int main(int argc, char **argv) {
-    (void)argc;
-    (void)argv;
-
-    signal(SIGINT, signalHanler);
-    signal(SIGTERM, signalHanler);
-
+void threadTest() {
     auto manager = manager::getInstance();
     std::cout << "init()" << std::endl;
     manager->init();
@@ -26,6 +19,16 @@ int main(int argc, char **argv) {
     manager->join();
     std::cout << "deinit()" << std::endl;
     manager->deinit();
+}
+
+int main(int argc, char **argv) {
+    (void)argc;
+    (void)argv;
+
+    signal(SIGINT, signalHanler);
+    signal(SIGTERM, signalHanler);
+
+    threadTest();
 
     return 0;
 }
