@@ -1,12 +1,13 @@
 #include <iostream>
 #include <csignal>
 #include "message.h"
-
+#include "manager.h"
 using namespace std;
 
 void signalHanler(int signum) {
     (void)signum;
     cout << "signal:" << signum << endl;
+    manager::getInstance()->stop();
 }
 
 int main(int argc, char **argv) {
@@ -16,6 +17,15 @@ int main(int argc, char **argv) {
     signal(SIGINT, signalHanler);
     signal(SIGTERM, signalHanler);
 
-    cout << "Hello World!" << endl;
+    auto manager = manager::getInstance();
+    std::cout << "init()" << std::endl;
+    manager->init();
+    std::cout << "start()" << std::endl;
+    manager->start();
+    std::cout << "join()" << std::endl;
+    manager->join();
+    std::cout << "deinit()" << std::endl;
+    manager->deinit();
+
     return 0;
 }

@@ -9,8 +9,11 @@ include_directories(${JSONCPP_INCLUDE_DIRS})
 
 include_directories(
     message
+    thread
 )
 add_executable(cppstudy
-    src/main.cpp)
+    src/main.cpp
+    thread/manager.cpp
+    )
 
 target_link_libraries(cppstudy ${JSONCPP_LIBRARIES_FULL_PATH})
