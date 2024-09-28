@@ -1,0 +1,17 @@
+^ + q  : close editor
+^ + w : (vim) move another display, explorer
+^ + e : find file
+^ + r : (vim) redo
+u : (vim) undo
+^ + a : select all
+^ + s : save
+^ + d : Page Up
+^ + f : Page Down
+^ + g : go to line
+^ + b : explorer toggle
+^ + j : terminal toggle
+^ + h : text change
+F12 : go to definition
+^ + shift + F12 : peek reference
+alt + left : backward(navigate)
+alt + right : forward(navigate)
