@@ -12,6 +12,6 @@ u : (vim) undo
 ^ + j : terminal toggle
 ^ + h : text change
 F12 : go to definition
-^ + shift + F12 : peek reference
+shift + F12 : peek reference
 alt + left : backward(navigate)
 alt + right : forward(navigate)
