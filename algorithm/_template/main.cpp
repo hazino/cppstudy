@@ -17,13 +17,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n;
-    cin >> n;
-    vector<int> a(n);
-    for (auto& x : a) cin >> x;
-
-    // TODO: 풀이
-
-    cout << '\n';   // endl 대신 '\n' (flush 비용 없음)
+    // TODO: 문제에 맞는 입력, 풀이, 출력을 작성한다.
+    // 입력 크기 / 첫 접근 / 시간복잡도 / 경계 사례를 먼저 기록한다.
     return 0;
 }

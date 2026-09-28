@@ -106,6 +106,7 @@ ll lastTrue(ll lo, ll hi, const function<bool(ll)>& ok) {
 }
 
 // ---------------------------------------------------------------- Topological Sort
+// 선택 참고: 이번 필수 복습 범위에서는 제외한다.
 vector<int> topoSort(int n, const vector<vector<int>>& adj) {   // 1-indexed
     vector<int> indeg(n + 1, 0);
     for (int u = 1; u <= n; u++)
@@ -125,6 +126,7 @@ vector<int> topoSort(int n, const vector<vector<int>>& adj) {   // 1-indexed
 }
 
 // ---------------------------------------------------------------- DP 기본 (0/1 배낭)
+// 선택 참고: 기본 State/점화식 복습은 Day 9를 우선한다.
 int knapsack(const vector<int>& wt, const vector<int>& val, int W) {
     vector<int> dp(W + 1, 0);
     for (size_t i = 0; i < wt.size(); i++)
@@ -146,8 +148,30 @@ void combi(int n, int r, int start, vector<int>& cur, vector<vector<int>>& out) 
     }
 }
 
+// ---------------------------------------------------------------- Prefix Sum
+// s[i] = 앞의 i개 원소 합. 구간 [l,r] (1-based)의 합은 s[r]-s[l-1].
+vector<ll> prefixSum(const vector<ll>& a) {
+    vector<ll> s(a.size() + 1, 0);
+    for (size_t i = 0; i < a.size(); ++i) s[i + 1] = s[i] + a[i];
+    return s;
+}
+
+// lower_bound 직접 구현: 정렬된 배열, 반환 범위 [0, a.size()].
+int lowerBound(const vector<int>& a, int x) {
+    int lo = 0, hi = static_cast<int>(a.size());
+    while (lo < hi) {
+        int mid = lo + (hi - lo) / 2;
+        if (a[mid] < x) lo = mid + 1;
+        else hi = mid;
+    }
+    return lo;
+}
+
 // ================================================================ 검증
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     int ok = 0, total = 0;
     auto check = [&](const string& name, bool cond) {
         total++;
@@ -158,6 +182,22 @@ int main() {
     vector<pii> v = {{1, 2}, {3, 1}, {3, 0}};
     sort(v.begin(), v.end(), cmpDescThenAsc);
     check("sort", v == vector<pii>{{3, 0}, {3, 1}, {1, 2}});
+    sort(v.begin(), v.end(), [](const pii& a, const pii& b) {
+        return a < b;
+    });
+    check("sort lambda", v == vector<pii>{{1, 2}, {3, 0}, {3, 1}});
+    queue<int> q;
+    q.push(2); q.push(1); q.pop();
+    check("queue", q.front() == 1);
+    priority_queue<int, vector<int>, greater<int>> pq;
+    pq.push(2); pq.push(1);
+    check("priority_queue", pq.top() == 1);
+    const auto sums = prefixSum({2000000000LL, 2000000000LL, -3});
+    check("prefix sum", sums[3] - sums[0] == 3999999997LL);
+    check("prefix sum single", sums[3] - sums[2] == -3);
+    check("lower_bound duplicate", lowerBound({1, 3, 3, 5}, 3) == 1);
+    check("lower_bound end", lowerBound({1, 3}, 4) == 2);
+    check("lower_bound empty", lowerBound({}, 1) == 0);
 
     vector<vector<int>> g(5);
     g[1] = {2, 3};
@@ -185,5 +225,5 @@ int main() {
     check("combination", out.size() == 10);
 
     cout << ok << " / " << total << " passed\n";
-    return 0;
+    return ok == total ? 0 : 1;
 }
