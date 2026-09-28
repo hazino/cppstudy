@@ -8,28 +8,34 @@
 
 인접 리스트, 방문 배열, BFS, DFS, 연결 요소.
 
-## 반드시 직접 작성할 코드
+## No IntelliSense Drill
 
 참고자료 없이 인접 리스트, BFS, DFS, 연결 요소 세기를 처음부터 작성한다.
 
-## 오늘 풀 문제
+## 온라인 문제
 
-| 순서 | 문제 | 풀이 파일 |
-|---|---|---|
-| 1 | [BOJ 1260 DFS와 BFS](https://www.acmicpc.net/problem/1260) | `boj_1260.cpp` |
-| 2 | [BOJ 11724 연결 요소의 개수](https://www.acmicpc.net/problem/11724) | `boj_11724.cpp` |
+| Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
+|---|---|---|---|---|---|
+| Programmers | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | Lv.3 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
+| Programmers | [네트워크 (빈 파일 재풀이)](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | Lv.3 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
+
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+
+[플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 
 ## 권장 시간
 
-20분 개념·손코딩 → 40분 기본 문제 → 45분 실전 문제 → 15분 오답·로그 (총 120분).
+20분 BFS/DFS 손코딩 → 네트워크 40분 → 자료를 닫고 다른 탐색 방식으로 재작성·검증 45분 → 로그 15분.
 
-## 자주 발생하는 실수
+## 자주 하는 실수
 
 방문 처리 시점, 탐색 간 초기화, 무방향 간선 누락, 재귀 깊이.
 
 ## 완료 체크리스트
 
-- [ ] 코드를 보기 전에 직접 작성했다.
+- [ ] 자동완성·AI를 끄고 자료 없이 Drill을 작성했다.
+- [ ] 브라우저 에디터에서 첫 풀이를 작성했다.
+- [ ] 학습 후에만 AI 리뷰·복잡도 검증·다른 풀이 비교·오답 분석을 활용했다.
 - [ ] 문제를 읽고 3~5분 안에 첫 접근과 복잡도를 적었다.
 - [ ] 예제와 직접 만든 경계 사례를 확인했다.
 - [ ] 결과·실패 원인·재도전 날짜를 [problem_log.md](../problem_log.md)에 기록했다.
@@ -37,6 +43,9 @@
 [공통 풀이 원칙](../README.md#문제-풀이-원칙)을 따른다.
 
 ---
+
+<details>
+<summary>풀이 후 확인할 기존 개념 노트</summary>
 
 ## 기존 개념 노트
 
@@ -63,7 +72,5 @@ Graph → Start Node → BFS / DFS → Visited 관리 → 탐색
 - [ ] 테스트 케이스 여러 개일 때 visited / adj 초기화
 - [ ] 양방향 / 단방향 간선 구분
 
-## 선택 추가 문제 (필수 풀이 완료 후)
-- 1260 DFS와 BFS (그래프)
-- 11724 연결 요소의 개수 (그래프)
-- 2667 단지번호붙이기 (Grid)
+
+</details>

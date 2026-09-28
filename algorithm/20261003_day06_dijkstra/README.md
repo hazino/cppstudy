@@ -8,28 +8,43 @@
 
 가중 그래프, priority_queue, 거리 배열, 경로 역추적.
 
-## 반드시 직접 작성할 코드
+## No IntelliSense Drill
 
 참고자료 없이 최소 힙, 거리 갱신, 오래된 항목 무시, prev 역추적까지 작성한다.
 
-## 오늘 풀 문제
+## 온라인 문제
 
-| 순서 | 문제 | 풀이 파일 |
-|---|---|---|
-| 1 | [BOJ 1753 최단경로](https://www.acmicpc.net/problem/1753) | `boj_1753.cpp` |
-| 2 | [BOJ 1916 최소비용 구하기](https://www.acmicpc.net/problem/1916) | `boj_1916.cpp` |
+| Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
+|---|---|---|---|---|---|
+| Programmers | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | 실전 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
+| LeetCode | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | 45분 | 선택 보충: 독립 구현 | `practice_02.cpp` |
+
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+
+**CodeTree 우선 선택:** [공식 학습 사이트](https://www.codetree.ai/ko)에서 Trail 5 → Chapter 5 Shortest Path의 접근 가능한 기본 문제를 선택한다. 2026-09-28에는 과정 탐색 중 로그인·이용권 안내가 표시되어 개별 그래프 문제의 이름·URL·난이도를 검증하지 못했다. 아래 표는 선택 기록용이며 홈페이지를 개별 문제 URL로 취급하지 않는다. 선택이 어렵거나 접근 권한이 없으면 위의 확인된 대체 문제를 바로 사용한다.
+
+| Platform | Problem Name | Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 |
+|---|---|---|---|---|---|
+| CodeTree | 당일 선택 | 개별 문제 링크 기록 | 페이지에서 확인 | 40분 | 조건에 맞는 독립 구현 |
+| CodeTree | 당일 선택 | 개별 문제 링크 기록 | 페이지에서 확인 | 45분 | 경계 사례 검증 |
+
+CodeTree 문제를 선택하면 같은 `practice_01.cpp`, `practice_02.cpp`의 메타데이터만 바꾸고 풀이한다.
+
+[플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 
 ## 권장 시간
 
-20분 개념·손코딩 → 40분 기본 문제 → 45분 실전 문제 → 15분 오답·로그 (총 120분).
+20분 Dijkstra 전체 손코딩 → 기본 문제 40분 → 다른 CodeTree 문제 또는 빈 파일 재풀이 45분 → 로그 15분. LeetCode는 이 45분 슬롯의 선택 대체이며 추가 필수가 아니다.
 
-## 자주 발생하는 실수
+## 자주 하는 실수
 
 음수 가중치 적용, INF 덧셈, 힙 방향, 도달 불가 경로 역추적.
 
 ## 완료 체크리스트
 
-- [ ] 코드를 보기 전에 직접 작성했다.
+- [ ] 자동완성·AI를 끄고 자료 없이 Drill을 작성했다.
+- [ ] 브라우저 에디터에서 첫 풀이를 작성했다.
+- [ ] 학습 후에만 AI 리뷰·복잡도 검증·다른 풀이 비교·오답 분석을 활용했다.
 - [ ] 문제를 읽고 3~5분 안에 첫 접근과 복잡도를 적었다.
 - [ ] 예제와 직접 만든 경계 사례를 확인했다.
 - [ ] 결과·실패 원인·재도전 날짜를 [problem_log.md](../problem_log.md)에 기록했다.
@@ -37,6 +52,9 @@
 [공통 풀이 원칙](../README.md#문제-풀이-원칙)을 따른다.
 
 ---
+
+<details>
+<summary>풀이 후 확인할 기존 개념 노트</summary>
 
 ## 기존 개념 노트
 
@@ -65,7 +83,5 @@
 - 실무에서의 경로 비용(거리/혼잡도)이 코딩테스트의 가중치와 같은 개념
 - 경로 자체가 필요하면 `prev[]`로 역추적
 
-## 선택 추가 문제 (필수 풀이 완료 후)
-- 1753 최단경로
-- 1916 최소비용 구하기
-- 11779 최소비용 구하기 2 (경로 역추적)
+
+</details>

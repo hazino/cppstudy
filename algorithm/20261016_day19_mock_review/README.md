@@ -6,27 +6,38 @@
 
 ## 핵심 개념
 
-시간 초과, 구현, 알고리즘 선택, STL 문법.
+알고리즘 선택, 구현, STL 문법, 경계 사례, 시간복잡도, Debugging, Time Management.
 
-## 반드시 직접 작성할 코드
+## No IntelliSense Drill
 
 실패한 문제 2개를 정답 복사 없이 다시 작성한다.
 
-## 오늘 풀 문제
+## 온라인 문제
 
-Day 18에서 실패하거나 오래 걸린 2문제를 선정한다. `retry_a.cpp`, `retry_b.cpp`에 해당 문제 번호를 기록한다.
+Day 18에서 틀리거나 오래 걸린 2문제를 고른다. 정답을 읽고 끝내지 말고 브라우저 빈 편집기에 다시 작성한다. `retry_a.cpp`, `retry_b.cpp`에 풀이를 기록한다.
+
+선정 후 아래 메타데이터를 채운다.
+
+| Platform | Problem Name | Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 |
+|---|---|---|---|---|---|
+| 선정 후 기록 | | | | 40분 | 약점의 독립 재구현 |
+| 선정 후 기록 | | | | 45분 | 재발 방지 검증 |
+
+[플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 
 ## 권장 시간
 
-20분 개념·손코딩 → 40분 기본 문제 → 45분 실전 문제 → 15분 오답·로그 (총 120분).
+20분 No IntelliSense 손코딩 → 40분 기본 문제 → 45분 실전 문제 → 15분 오답·problem_log 기록 (총 120분).
 
-## 자주 발생하는 실수
+## 자주 하는 실수
 
 원인 분석 없이 재실행, 정답 코드 따라 쓰기.
 
 ## 완료 체크리스트
 
-- [ ] 코드를 보기 전에 직접 작성했다.
+- [ ] 자동완성·AI를 끄고 자료 없이 Drill을 작성했다.
+- [ ] 브라우저 에디터에서 첫 풀이를 작성했다.
+- [ ] 학습 후에만 AI 리뷰·복잡도 검증·다른 풀이 비교·오답 분석을 활용했다.
 - [ ] 문제를 읽고 3~5분 안에 첫 접근과 복잡도를 적었다.
 - [ ] 예제와 직접 만든 경계 사례를 확인했다.
 - [ ] 결과·실패 원인·재도전 날짜를 [problem_log.md](../problem_log.md)에 기록했다.
@@ -42,7 +53,7 @@ Day 18에서 실패하거나 오래 걸린 2문제를 선정한다. `retry_a.cpp
 ## 오답 분석 (문제마다)
 
 ### 문제 :
-- 실패 분류 : Algorithm / Implementation / Data Structure / Time Complexity / Edge Case / C++ Syntax
+- 실패 분류 : Algorithm Knowledge / Algorithm Selection / Implementation / STL Syntax / Edge Case / Time Complexity / Debugging / Time Management
 - 시험 중 내 접근 :
 - 올바른 접근 :
 - 차이가 생긴 이유 :

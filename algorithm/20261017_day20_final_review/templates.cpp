@@ -179,6 +179,21 @@ int main() {
         cout << (cond ? "[PASS] " : "[FAIL] ") << name << '\n';
     };
 
+    // 기본 STL 회상: 삽입/조회/삭제를 직접 작성한 뒤 비교한다.
+    vector<pii> pairs;
+    pairs.push_back({2, 7});
+    check("vector / pair", pairs.front().first == 2 && pairs.front().second == 7);
+    stack<int> st;
+    st.push(3); st.push(8); st.pop();
+    check("stack", st.top() == 3);
+    map<string, int> counts;
+    ++counts["apple"];
+    ++counts["apple"];
+    check("map", counts.at("apple") == 2 && counts.find("pear") == counts.end());
+    set<int> uniqueValues = {3, 1, 3};
+    uniqueValues.erase(3);
+    check("set", uniqueValues.size() == 1 && uniqueValues.count(1) == 1);
+
     vector<pii> v = {{1, 2}, {3, 1}, {3, 0}};
     sort(v.begin(), v.end(), cmpDescThenAsc);
     check("sort", v == vector<pii>{{3, 0}, {3, 1}, {1, 2}});

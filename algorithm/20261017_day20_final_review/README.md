@@ -6,27 +6,38 @@
 
 ## 핵심 개념
 
-기본 template, sort/lambda, queue, priority_queue, BFS, DFS, Grid BFS, Dijkstra, Binary Search, Prefix Sum.
+기본 template, vector/pair, sort/lambda, stack, queue, priority_queue, map/set, BFS, DFS, Grid BFS, Dijkstra, Binary Search, Prefix Sum.
 
-## 반드시 직접 작성할 코드
+## No IntelliSense Drill
 
 자료 없이 빈 파일에 핵심 템플릿을 쓰고 마지막에 templates.cpp와 비교한다.
 
-## 오늘 풀 문제
+## 온라인 문제
 
-Day 15/19에서 재실패한 2문제를 원래 풀이 파일에서 다시 푼다. 새 문제 대신 경계 사례를 추가한다.
+Day 15/19에서 재실패한 2문제를 같은 플랫폼에서 다시 푼다. 원래 문제 파일을 재사용하고 새 파일을 중복 생성하지 않는다.
+
+선정 후 아래 메타데이터를 채운다.
+
+| Platform | Problem Name | Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 |
+|---|---|---|---|---|---|
+| 선정 후 기록 | | | | 40분 | 약점의 독립 재구현 |
+| 선정 후 기록 | | | | 45분 | 재발 방지 검증 |
+
+[플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 
 ## 권장 시간
 
-20분 핵심 템플릿 회상 → 40분 약점 재풀이 → 45분 나머지 템플릿 손코딩·약점 검증 → 15분 최종 체크.
+20분 핵심 템플릿 손코딩 → 40분 약점 재풀이 → 45분 나머지 템플릿 작성·검증 → 15분 최종 체크.
 
-## 자주 발생하는 실수
+## 자주 하는 실수
 
 복습 전에 답안 읽기, 경계 조건 생략, 손코딩 대신 읽기.
 
 ## 완료 체크리스트
 
-- [ ] 코드를 보기 전에 직접 작성했다.
+- [ ] 자동완성·AI를 끄고 자료 없이 Drill을 작성했다.
+- [ ] 브라우저 에디터에서 첫 풀이를 작성했다.
+- [ ] 학습 후에만 AI 리뷰·복잡도 검증·다른 풀이 비교·오답 분석을 활용했다.
 - [ ] 문제를 읽고 3~5분 안에 첫 접근과 복잡도를 적었다.
 - [ ] 예제와 직접 만든 경계 사례를 확인했다.
 - [ ] 결과·실패 원인·재도전 날짜를 [problem_log.md](../problem_log.md)에 기록했다.
@@ -45,6 +56,11 @@ Day 15/19에서 재실패한 2문제를 원래 풀이 파일에서 다시 푼다
 
 새로운 알고리즘 학습 X. 먼저 `drill.cpp`에 자료 없이 작성한 후 `templates.cpp`와 비교한다.
 
+- [ ] C++ 기본 template
+- [ ] vector / pair
+- [ ] stack
+- [ ] map / set
+- [ ] Prefix Sum
 - [ ] BFS
 - [ ] DFS
 - [ ] Dijkstra

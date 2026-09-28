@@ -110,7 +110,7 @@ int main() {
     cout << "rotateCW :\n";
     printGrid(rotateCW({{1, 2, 3}, {4, 5, 6}}));
 
-    // BOJ 3190 뱀 예제 1 : 답 9
+    // 뱀 이동 개념 검증 : 예상 종료 시각 9
     cout << "snake : " << snakeGame(6, {{2, 3}, {1, 4}, {3, 3}}, {{3, 'D'}, {15, 'L'}, {17, 'D'}}) << '\n';
 
     cout << "spiral :\n";

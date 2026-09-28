@@ -8,28 +8,34 @@
 
 2D Grid, dx/dy, 최단거리, Multi-source BFS.
 
-## 반드시 직접 작성할 코드
+## No IntelliSense Drill
 
 좌표 경계 검사와 단일/다중 시작점 BFS를 직접 작성한다.
 
-## 오늘 풀 문제
+## 온라인 문제
 
-| 순서 | 문제 | 풀이 파일 |
-|---|---|---|
-| 1 | [BOJ 2178 미로 탐색](https://www.acmicpc.net/problem/2178) | `boj_2178.cpp` |
-| 2 | [BOJ 7576 토마토](https://www.acmicpc.net/problem/7576) | `boj_7576.cpp` |
+| Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
+|---|---|---|---|---|---|
+| Programmers | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | Lv.2 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
+| Programmers | [게임 맵 최단거리 (경계 사례 재검증)](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | Lv.2 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
+
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+
+[플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 
 ## 권장 시간
 
-20분 개념·손코딩 → 40분 기본 문제 → 45분 실전 문제 → 15분 오답·로그 (총 120분).
+20분 Grid BFS·다중 시작점 초기화 손코딩 → 게임 맵 최단거리 40분 → 경계 사례 및 빈 파일 재작성 45분 → 로그 15분. Multi-source는 별도 작은 격자로 개념을 확인한다.
 
-## 자주 발생하는 실수
+## 자주 하는 실수
 
 행/열 뒤바뀜, 시작 거리 기준, 도달 불가 처리.
 
 ## 완료 체크리스트
 
-- [ ] 코드를 보기 전에 직접 작성했다.
+- [ ] 자동완성·AI를 끄고 자료 없이 Drill을 작성했다.
+- [ ] 브라우저 에디터에서 첫 풀이를 작성했다.
+- [ ] 학습 후에만 AI 리뷰·복잡도 검증·다른 풀이 비교·오답 분석을 활용했다.
 - [ ] 문제를 읽고 3~5분 안에 첫 접근과 복잡도를 적었다.
 - [ ] 예제와 직접 만든 경계 사례를 확인했다.
 - [ ] 결과·실패 원인·재도전 날짜를 [problem_log.md](../problem_log.md)에 기록했다.
@@ -37,6 +43,9 @@
 [공통 풀이 원칙](../README.md#문제-풀이-원칙)을 따른다.
 
 ---
+
+<details>
+<summary>풀이 후 확인할 기존 개념 노트</summary>
 
 ## 기존 개념 노트
 
@@ -67,7 +76,5 @@ while (!q.empty()) {
 - [ ] Multi-source : 시작점 전부 큐에 넣고 BFS 한 번
 - [ ] 행(x) / 열(y) 헷갈리지 않기 (입력이 `M N`처럼 열 먼저 주어지는지 확인)
 
-## 선택 추가 문제 (필수 풀이 완료 후)
-- 2178 미로 탐색
-- 7576 토마토 (Multi-source)
-- 14940 쉬운 최단거리
+
+</details>
