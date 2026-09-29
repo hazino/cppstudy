@@ -5,7 +5,7 @@ using namespace std;
 
 void vectorDemo() {
     cout << "=== vector ===\n";
-    vector<int> v = {5, 3, 8, 1, 9};
+    vector<int> v = {6, 3, 8, 1, 9};
     v.push_back(4);
     v.pop_back();
     cout << "size=" << v.size() << " front=" << v.front() << " back=" << v.back() << '\n';

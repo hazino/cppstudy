@@ -4,8 +4,28 @@
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:
-#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
+
+vector<int> solution(vector<int> array, vector<vector<int>> commands) {
+    vector<int> answer;
+    
+    for(auto n : commands) {
+        int i = n[0]-1;
+        int j = n[1]-1;
+        int k = n[2]-1;
+        vector<int> tmp;
+        for(int c = i; c <= j; c++)
+        {
+            tmp.push_back(array[c]);
+        }        
+        sort(tmp.begin(), tmp.end());
+        answer.push_back(tmp[k]);
+    }
+    
+    return answer;
+}
 
 // TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
 // 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
