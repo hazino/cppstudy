@@ -1,18 +1,35 @@
-// Platform: Programmers
-// Problem: 더 맵게
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/42626
-// 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
-// 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
-// 예상 Edge Case:
-#include <iostream>
+#include <string>
+#include <vector>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-// TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
-// 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: 풀이 후 로컬 검증 코드 또는 표준 입출력 풀이를 작성한다.
-    cerr << "TODO: not implemented\n";
-    return 1;  // 빈 skeleton 실행을 정답 통과로 착각하지 않는다.
+int solution(vector<int> scoville, int K) {
+    int answer = 0;
+    bool solved = false;
+    auto greater =[](int a, int b) {return a > b; };
+    priority_queue <int, vector<int>, decltype(greater)> pq; 
+    
+    for(auto n : scoville){
+        pq.push(n);
+    }
+    
+    while(true) {
+        if(pq.top() >= K){
+            solved = true;
+            break;
+        }
+        if(pq.size() < 2)
+            break;
+        int tmp1 = pq.top();
+        pq.pop();
+        int tmp2 = pq.top();
+        pq.pop();
+        int tmp3 = tmp1 + ( tmp2*2);
+        
+        pq.push(tmp3);
+        answer++;
+    }
+    if(!solved) answer = -1;
+    return answer;
 }
