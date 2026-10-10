@@ -1,6 +1,6 @@
 // Platform: Programmers
-// Problem: 입국심사 (빈 파일 재풀이)
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/43238
+// Problem: 징검다리 건너기
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/64062
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:

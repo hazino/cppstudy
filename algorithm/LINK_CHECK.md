@@ -48,7 +48,7 @@ Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈
 | Programmers | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | 본문·편집기 표시; 제출 미확인 | [20260930_day03_bfs_dfs/practice_01.cpp](20260930_day03_bfs_dfs/practice_01.cpp) |
 | Programmers | [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) | 본문·편집기 표시; 제출 미확인 | [20261008_day11_graph_practice/practice_01.cpp](20261008_day11_graph_practice/practice_01.cpp) |
 | Programmers | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | 본문·편집기 표시; 제출 미확인 | [20260930_day03_bfs_dfs/practice_02.cpp](20260930_day03_bfs_dfs/practice_02.cpp), [20261013_day16_mixed/q2.cpp](20261013_day16_mixed/q2.cpp) |
-| Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | 본문·편집기 표시; 제출 미확인 | [20261002_day05_binary_search/practice_01.cpp](20261002_day05_binary_search/practice_01.cpp), [20261002_day05_binary_search/practice_02.cpp](20261002_day05_binary_search/practice_02.cpp) |
+| Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | 본문·편집기 표시; 제출 미확인 | [20261002_day05_binary_search/practice_01.cpp](20261002_day05_binary_search/practice_01.cpp) |
 | Programmers | [방문 길이](https://school.programmers.co.kr/learn/courses/30/lessons/49994) | 본문·편집기 표시; 제출 미확인 | [20261015_day18_mock_test1/b.cpp](20261015_day18_mock_test1/b.cpp) |
 | Programmers | [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057) | 본문·편집기 표시; 제출 미확인 | [20261013_day16_mixed/q1.cpp](20261013_day16_mixed/q1.cpp) |
 | Programmers | [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) | 본문·편집기 표시; 제출 미확인 | [20261015_day18_mock_test1/e.cpp](20261015_day18_mock_test1/e.cpp) |
@@ -64,3 +64,11 @@ Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈
 | CodeTree | [정수 N개의 합 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-2/description) | 본문·편집기 표시; 제출 미확인 | [20261007_day10_prefix_sum/practice_01.cpp](20261007_day10_prefix_sum/practice_01.cpp) |
 | CodeTree | [정수 N개의 합 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-3/description) | 본문·편집기 표시; 제출 미확인 | [20261007_day10_prefix_sum/practice_02.cpp](20261007_day10_prefix_sum/practice_02.cpp) |
 | CodeTree | [문자에 따른 명령 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-text-based-commands2/description) | 본문·편집기 표시; 제출 미확인 | [20261014_day17_speed/q2.cpp](20261014_day17_speed/q2.cpp) |
+
+## Day 5 추가 문제 확인
+
+Day 5의 두 번째 문제를 입국심사 재풀이에서 징검다리 건너기로 교체했다. 위 38개는 2026-10-05 점검 당시의 목록이며, 아래 문제 추가로 현재 고유 문제 링크는 39개다. 추가 문제는 웹 도구로 공식 본문과 C++ 선택 항목을 확인했으며 실제 브라우저 편집기 및 실행·제출은 이번에 검증하지 않았다.
+
+| Platform | 문제 | 확인 결과 | 사용 파일 |
+|---|---|---|---|
+| Programmers | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) | 공식 본문 확인; 실행·제출 미확인 | [20261002_day05_binary_search/practice_02.cpp](20261002_day05_binary_search/practice_02.cpp) |

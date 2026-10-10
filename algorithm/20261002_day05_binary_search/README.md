@@ -16,8 +16,8 @@ binary_search, lower_bound, upper_bound, Parameter Search.
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | 실전 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
-| Programmers | [입국심사 (빈 파일 재풀이)](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | 실전 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
+| Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | 실전 | 40분 | 가능한 최소 시간의 경계 탐색 | `practice_01.cpp` |
+| Programmers | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) | 도전 | 45분 | 가능한 최대 인원의 경계 탐색 | `practice_02.cpp` |
 
 Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
 
@@ -25,7 +25,7 @@ Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식
 
 ## 권장 시간
 
-20분 직접 이분 탐색 → 입국심사 40분 → 힌트를 닫고 재작성·경계 검증 45분 → 로그 15분.
+20분 직접 이분 탐색 → 입국심사 40분 → 징검다리 건너기 45분 → 로그 15분.
 
 ## 자주 하는 실수
 
