@@ -1,18 +1,99 @@
-// Platform: Programmers
-// Problem: 미로 탈출
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/159993
-// 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
-// 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
-// 예상 Edge Case:
-#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-// TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
-// 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: 풀이 후 로컬 검증 코드 또는 표준 입출력 풀이를 작성한다.
-    cerr << "TODO: not implemented\n";
-    return 1;  // 빈 skeleton 실행을 정답 통과로 착각하지 않는다.
+const int dx[4] = {0,0,1,-1};
+const int dy[4] = {1,-1,0,0};
+
+bool visited[105][105] = {0,};
+bool findlv = false;
+int tolv = 1e7;
+int lx,ly;
+int answer = 1e7;
+struct node {
+    int x,y,times;
+};
+queue<node>q;
+
+
+int bfs(const vector<string>& maps, int i, int j)
+{
+    int n = maps.size();
+    int m = maps[0].size();
+    while(!q.empty()) q.pop();
+    for(int i = 0; i < 105; i++)for(int j = 0; j < 105;j++) visited[i][j] = 0;
+    
+    q.push({i,j,1});
+    
+    while(!q.empty()) {
+        auto[x,y,times] = q.front();
+        q.pop();
+        
+        for(int k = 0; k < 4; k++) {
+            int ni = x+dx[k];
+            int nj = y+dy[k];
+            if(ni < 0 || ni >= n || nj < 0 || nj >= m) 
+                continue;
+            if(visited[ni][nj] == true || maps[ni][nj] =='X')
+                continue;
+            if(maps[ni][nj] == 'L') {
+                findlv = true;
+                lx = ni, ly = nj;
+                if(tolv > times) {
+                    tolv = times;
+                }
+                break;
+            }
+            q.push({ni,nj,times+1});
+            visited[ni][nj] = true;
+        }
+    }
+    if(!findlv) {
+        return -1;
+    }
+
+    for(int i = 0; i < 105; i++)for(int j = 0; j < 105;j++) 
+        visited[i][j] = 0;
+    
+    q.push({lx,ly,tolv+1});
+
+    while(!q.empty()) {
+        auto[x,y,times] = q.front();
+        q.pop();
+        
+        for(int k = 0; k < 4; k++) {
+            int ni = x+dx[k];
+            int nj = y+dy[k];
+            if(ni < 0 || ni >= n || nj < 0 || nj >= m ||
+               visited[ni][nj] == true || maps[ni][nj] =='X')
+                continue;
+            if(maps[ni][nj] == 'E') {
+                if(answer > times) {
+                    answer = times;
+                }
+                break;
+            }
+            q.push({ni,nj,times+1});
+            visited[ni][nj] = true;
+        }
+    }
+    if(answer == 1e7) return -1;
+    return answer;
+    
+}
+int solution(vector<string> maps) {
+    int i=0,j = 0;
+    answer = 1e7;
+    tolv= 1e7;
+    findlv = false;
+    for(const auto& n : maps){
+        auto idx = n.find('S');
+        if(idx == string::npos) {
+            i++;
+        } else {
+            j = idx;
+            break;
+        }
+    }
+    return  bfs(maps,i,j);
 }
