@@ -26,7 +26,7 @@ Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈
 
 | Platform | 문제 | 확인 결과 | 사용 파일 |
 |---|---|---|---|
-| LeetCode | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 본문 표시; 실행·제출 로그인 필요 | [20261003_day06_dijkstra/practice_02.cpp](20261003_day06_dijkstra/practice_02.cpp) |
+| LeetCode | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 본문 표시; 실행·제출 로그인 필요 | Day 6에서 제외됨 (점검 당시 사용) |
 | Programmers | [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666) | 본문·편집기 표시; 제출 미확인 | [20261014_day17_speed/q3.cpp](20261014_day17_speed/q3.cpp) |
 | Programmers | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) | 본문·편집기 표시; 제출 미확인 | [20260929_day02_stl_container/practice_01.cpp](20260929_day02_stl_container/practice_01.cpp) |
 | Programmers | [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914) | 본문·편집기 표시; 제출 미확인 | [20261006_day09_dp/practice_02.cpp](20261006_day09_dp/practice_02.cpp) |
@@ -51,7 +51,7 @@ Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈
 | Programmers | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | 본문·편집기 표시; 제출 미확인 | [20261002_day05_binary_search/practice_01.cpp](20261002_day05_binary_search/practice_01.cpp) |
 | Programmers | [방문 길이](https://school.programmers.co.kr/learn/courses/30/lessons/49994) | 본문·편집기 표시; 제출 미확인 | [20261015_day18_mock_test1/b.cpp](20261015_day18_mock_test1/b.cpp) |
 | Programmers | [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057) | 본문·편집기 표시; 제출 미확인 | [20261013_day16_mixed/q1.cpp](20261013_day16_mixed/q1.cpp) |
-| Programmers | [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) | 본문·편집기 표시; 제출 미확인 | [20261015_day18_mock_test1/e.cpp](20261015_day18_mock_test1/e.cpp) |
+| Programmers | [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) | 본문·편집기 표시; 제출 미확인 | [20261003_day06_dijkstra/practice_02.cpp](20261003_day06_dijkstra/practice_02.cpp), [20261015_day18_mock_test1/e.cpp](20261015_day18_mock_test1/e.cpp) |
 | Programmers | [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) | 본문·편집기 표시; 제출 미확인 | [20261013_day16_mixed/q3.cpp](20261013_day16_mixed/q3.cpp) |
 | Programmers | [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491) | 본문·편집기 표시; 제출 미확인 | [20261010_day13_backtracking/practice_01.cpp](20261010_day13_backtracking/practice_01.cpp) |
 | Programmers | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | 본문·편집기 표시; 제출 미확인 | [20261010_day13_backtracking/practice_02.cpp](20261010_day13_backtracking/practice_02.cpp) |
@@ -67,8 +67,16 @@ Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈
 
 ## Day 5 추가 문제 확인
 
-Day 5의 두 번째 문제를 입국심사 재풀이에서 징검다리 건너기로 교체했다. 위 38개는 2026-10-05 점검 당시의 목록이며, 아래 문제 추가로 현재 고유 문제 링크는 39개다. 추가 문제는 웹 도구로 공식 본문과 C++ 선택 항목을 확인했으며 실제 브라우저 편집기 및 실행·제출은 이번에 검증하지 않았다.
+Day 5의 두 번째 문제를 입국심사 재풀이에서 징검다리 건너기로 교체했다. 위 38개는 2026-10-05 점검 당시의 목록이며, 아래 문제 추가로 Day 5 변경 직후 고유 문제 링크는 39개였다. 추가 문제는 웹 도구로 공식 본문과 C++ 선택 항목을 확인했으며 실제 브라우저 편집기 및 실행·제출은 이번에 검증하지 않았다.
 
 | Platform | 문제 | 확인 결과 | 사용 파일 |
 |---|---|---|---|
 | Programmers | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) | 공식 본문 확인; 실행·제출 미확인 | [20261002_day05_binary_search/practice_02.cpp](20261002_day05_binary_search/practice_02.cpp) |
+
+## Day 6 Programmers 3문제 구성
+
+배달, 합승 택시 요금, 등산코스 정하기의 공식 페이지를 웹 도구로 확인했다. 실제 실행·제출은 검증하지 않았다. Network Delay Time을 학습 목록에서 제외하고 등산코스 정하기를 추가했으며, 합승 택시 요금의 사용 파일 목록을 갱신했다. 기존 브라우저 점검 기록은 당시 결과로 보존한다.
+
+| Platform | 문제 | 확인 결과 | 사용 파일 |
+|---|---|---|---|
+| Programmers | [등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669) | 공식 본문 확인; 실행·제출 미확인 | [20261003_day06_dijkstra/practice_03.cpp](20261003_day06_dijkstra/practice_03.cpp) |

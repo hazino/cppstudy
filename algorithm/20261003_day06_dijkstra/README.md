@@ -16,25 +16,17 @@
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| Programmers | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | 실전 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
-| LeetCode | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | 45분 | 선택 보충: 독립 구현 | `practice_02.cpp` |
+| Programmers | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | 기본 | 40분 | 가중 그래프의 최단거리 기본 구현 | `practice_01.cpp` |
+| Programmers | [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) | 실전 | 60분 | 최단거리 응용과 비용 비교 | `practice_02.cpp` |
+| Programmers | [등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669) | 도전 | 75분 | 경로 비용 정의와 제약 조건을 반영하는 탐색 | `practice_03.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
-
-**CodeTree 우선 선택:** [공식 학습 사이트](https://www.codetree.ai/ko)에서 Trail 5 → Chapter 5 Shortest Path의 접근 가능한 기본 문제를 선택한다. 2026-09-28에는 과정 탐색 중 로그인·이용권 안내가 표시되어 개별 그래프 문제의 이름·URL·난이도를 검증하지 못했다. 아래 표는 선택 기록용이며 홈페이지를 개별 문제 URL로 취급하지 않는다. 선택이 어렵거나 접근 권한이 없으면 위의 확인된 대체 문제를 바로 사용한다.
-
-| Platform | Problem Name | Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 |
-|---|---|---|---|---|---|
-| CodeTree | 당일 선택 | 개별 문제 링크 기록 | 페이지에서 확인 | 40분 | 조건에 맞는 독립 구현 |
-| CodeTree | 당일 선택 | 개별 문제 링크 기록 | 페이지에서 확인 | 45분 | 경계 사례 검증 |
-
-CodeTree 문제를 선택하면 같은 `practice_01.cpp`, `practice_02.cpp`의 메타데이터만 바꾸고 풀이한다.
+난이도는 이 계획의 학습 기준이며 공식 등급이 아니다. 위 순서대로 풀고, 세 번째 문제는 기본 구현을 익힌 뒤 도전한다. Day 11의 배달과 Day 18의 합승 택시 요금은 복습으로 유지한다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 
 ## 권장 시간
 
-20분 Dijkstra 전체 손코딩 → 기본 문제 40분 → 다른 CodeTree 문제 또는 빈 파일 재풀이 45분 → 로그 15분. LeetCode는 이 45분 슬롯의 선택 대체이며 추가 필수가 아니다.
+20분 Dijkstra 손코딩 → 배달 40분 → 합승 택시 요금 60분 → 등산코스 정하기 75분 → 로그 15분. 총 210분이며, 시간이 부족하면 세 번째 문제는 다음 학습 시간에 이어서 푼다.
 
 ## 자주 하는 실수
 

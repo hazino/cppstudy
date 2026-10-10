@@ -1,6 +1,6 @@
 // Platform: Programmers
-// Problem: 합승 택시 요금
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/72413
+// Problem: 등산코스 정하기
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/118669
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:
