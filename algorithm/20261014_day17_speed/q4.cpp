@@ -1,3 +1,6 @@
+// 2026-10-05: 기본 링크에 사용자 404 신고가 있어 접근 시 확인 필요.
+// 대체: 문자열 내림차순으로 배치하기 — https://school.programmers.co.kr/learn/courses/30/lessons/12917
+// 대체 선택 시 아래 Problem / URL을 갱신하고 같은 파일을 사용한다.
 // Platform: Programmers
 // Problem: 이상한 문자 만들기 (속도 재풀이)
 // URL: https://school.programmers.co.kr/learn/courses/30/lessons/12930

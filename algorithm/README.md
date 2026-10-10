@@ -17,6 +17,8 @@ cd 20260930_day03_bfs_dfs && ../run.sh bfs_dfs.cpp input.txt
 
 새 문제는 `_template/main.cpp`를 복사해서 시작한다. 풀이 기록은 `problem_log.md`에 남긴다.
 
+최신 접속 점검: [2026-10-05 문제 링크 38개 확인 결과](LINK_CHECK.md). `12930`은 사용자 404 신고와 확인 브라우저 결과가 달라 대체 문제를 함께 안내한다.
+
 ## 온라인 학습 플랫폼
 
 Primary는 [CodeTree](https://www.codetree.ai/ko), Secondary는 [Programmers](https://school.programmers.co.kr/learn/challenges)다. LeetCode는 특정 알고리즘의 선택 보충으로만 사용한다.

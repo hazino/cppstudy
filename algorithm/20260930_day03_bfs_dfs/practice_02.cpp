@@ -1,6 +1,6 @@
 // Platform: Programmers
-// Problem: 네트워크 (빈 파일 재풀이)
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/43162
+// Problem: 타겟 넘버
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/43165
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:

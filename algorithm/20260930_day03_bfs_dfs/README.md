@@ -16,8 +16,10 @@
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| Programmers | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | Lv.3 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
-| Programmers | [네트워크 (빈 파일 재풀이)](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | Lv.3 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
+| Programmers | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | Lv.3 | 40분 | BFS로 연결 요소 탐색 연습 | `practice_01.cpp` |
+| Programmers | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | Lv.2 | 45분 | DFS 재귀와 종료 조건 연습 | `practice_02.cpp` |
+
+네트워크는 BFS와 DFS 모두 가능한 문제이며, 오늘은 BFS로 연습한다. 타겟 넘버는 DFS로 연습한다. Day 16의 타겟 넘버는 복습으로 다시 푼다.
 
 Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
 
@@ -25,7 +27,7 @@ Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식
 
 ## 권장 시간
 
-20분 BFS/DFS 손코딩 → 네트워크 40분 → 자료를 닫고 다른 탐색 방식으로 재작성·검증 45분 → 로그 15분.
+20분 BFS/DFS 손코딩 → 네트워크 40분 → 타겟 넘버 DFS 연습 45분 → 로그 15분.
 
 ## 자주 하는 실수
 
