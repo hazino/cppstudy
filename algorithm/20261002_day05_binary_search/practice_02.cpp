@@ -1,18 +1,34 @@
-// Platform: Programmers
-// Problem: 징검다리 건너기
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/64062
-// 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
-// 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
-// 예상 Edge Case:
-#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-// TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
-// 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: 풀이 후 로컬 검증 코드 또는 표준 입출력 풀이를 작성한다.
-    cerr << "TODO: not implemented\n";
-    return 1;  // 빈 skeleton 실행을 정답 통과로 착각하지 않는다.
+int solution(vector<int> stones, int k) {
+    int answer = 0;
+    long long lo = 1;
+    long long hi = *max_element(stones.begin(), stones.end());
+    
+    while(lo <= hi) {
+        bool success = true;
+        long long mid = lo + (hi - lo) / 2;
+        int cnt = 0;
+        for(auto n : stones) {
+            if(n <= mid) {
+                cnt++;
+            } else {
+                cnt= 0;
+            }
+            if(k == cnt) {
+                success = false;
+                break;
+            }
+        }
+        if(!success) {                     
+            hi = mid-1; 
+            answer = mid;
+        } else {
+            lo = mid+1; 
+        }       
+    }
+    
+    return answer;
 }

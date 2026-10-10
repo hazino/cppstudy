@@ -1,18 +1,27 @@
-// Platform: Programmers
-// Problem: 입국심사
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/43238
-// 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
-// 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
-// 예상 Edge Case:
-#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-// TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
-// 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: 풀이 후 로컬 검증 코드 또는 표준 입출력 풀이를 작성한다.
-    cerr << "TODO: not implemented\n";
-    return 1;  // 빈 skeleton 실행을 정답 통과로 착각하지 않는다.
+long long solution(int n, vector<int> times) {
+    long long answer = 0;
+    sort(times.begin(), times.end());
+    
+    long long lo = 1;
+    long long hi = 1LL*times[0] * n;
+   
+    while(lo <= hi){
+        long long mid = lo +(hi-lo)/2;
+        long long tmp = 0;
+        for(auto nn : times) {
+            tmp += mid / nn;
+            if(tmp >=n) break;
+        }
+        if(n > tmp) {
+            lo = mid+1;
+        } else {
+            hi = mid-1;
+            answer = mid;
+        }         
+    }
+    return answer;
 }
