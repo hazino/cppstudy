@@ -16,8 +16,10 @@
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| Programmers | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | Lv.2 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
-| Programmers | [게임 맵 최단거리 (경계 사례 재검증)](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | Lv.2 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
+| Programmers | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | Lv.2 | 40분 | 격자 BFS 기본 구현과 거리 관리 | `practice_01.cpp` |
+| Programmers | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | Lv.2 | 45분 | 추가 조건이 있는 격자 최단거리 연습 | `practice_02.cpp` |
+
+Day 18 모의고사의 미로 탈출은 시간 제한을 두고 복습하는 문제로 유지한다.
 
 Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
 
@@ -25,7 +27,7 @@ Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식
 
 ## 권장 시간
 
-20분 Grid BFS·다중 시작점 초기화 손코딩 → 게임 맵 최단거리 40분 → 경계 사례 및 빈 파일 재작성 45분 → 로그 15분. Multi-source는 별도 작은 격자로 개념을 확인한다.
+20분 Grid BFS·다중 시작점 초기화 손코딩 → 게임 맵 최단거리 40분 → 미로 탈출 45분 → 로그 15분. Multi-source는 별도 작은 격자로 개념을 확인한다.
 
 ## 자주 하는 실수
 

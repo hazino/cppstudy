@@ -1,6 +1,6 @@
 // Platform: Programmers
-// Problem: 게임 맵 최단거리 (경계 사례 재검증)
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/1844
+// Problem: 미로 탈출
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/159993
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:

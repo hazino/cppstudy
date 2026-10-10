@@ -20,6 +20,8 @@ Day 1의 practice_02.cpp와 Day 17의 q4.cpp를 그대로 사용하고, 대체 �
 
 Day 3의 두 번째 문제를 네트워크 재풀이에서 타겟 넘버로 변경하고 아래 사용 파일 목록에 반영했다. 타겟 넘버 공식 페이지의 본문을 다시 확인했다. 아래 브라우저 점검 결과의 기준일은 기존 2026-10-05이며, 이번에 전체 링크를 재점검한 것은 아니다.
 
+Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈출로 변경했다. 2026-10-10 미로 탈출 공식 페이지의 본문을 확인하고 아래 사용 파일 목록을 갱신했다. 실행·제출은 검증하지 않았다.
+
 ## 전체 문제별 확인
 
 | Platform | 문제 | 확인 결과 | 사용 파일 |
@@ -34,8 +36,8 @@ Day 3의 두 번째 문제를 네트워크 재풀이에서 타겟 넘버로 변�
 | Programmers | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | 본문·편집기 표시; 제출 미확인 | [20261003_day06_dijkstra/practice_01.cpp](20261003_day06_dijkstra/practice_01.cpp), [20261008_day11_graph_practice/practice_02.cpp](20261008_day11_graph_practice/practice_02.cpp) |
 | Programmers | [예산](https://school.programmers.co.kr/learn/courses/30/lessons/12982) | 본문·편집기 표시; 제출 미확인 | [20261014_day17_speed/q5.cpp](20261014_day17_speed/q5.cpp) |
 | Programmers | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540) | 본문·편집기 표시; 제출 미확인 | [20261011_day14_week2_mini_test/q2.cpp](20261011_day14_week2_mini_test/q2.cpp) |
-| Programmers | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | 본문·편집기 표시; 제출 미확인 | [20261015_day18_mock_test1/d.cpp](20261015_day18_mock_test1/d.cpp) |
-| Programmers | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | 본문·편집기 표시; 제출 미확인 | [20261001_day04_grid_bfs/practice_01.cpp](20261001_day04_grid_bfs/practice_01.cpp), [20261001_day04_grid_bfs/practice_02.cpp](20261001_day04_grid_bfs/practice_02.cpp) |
+| Programmers | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | 본문·편집기 표시; 제출 미확인 | [20261001_day04_grid_bfs/practice_02.cpp](20261001_day04_grid_bfs/practice_02.cpp), [20261015_day18_mock_test1/d.cpp](20261015_day18_mock_test1/d.cpp) |
+| Programmers | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | 본문·편집기 표시; 제출 미확인 | [20261001_day04_grid_bfs/practice_01.cpp](20261001_day04_grid_bfs/practice_01.cpp) |
 | Programmers | [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583) | 본문·편집기 표시; 제출 미확인 | [20261011_day14_week2_mini_test/q1.cpp](20261011_day14_week2_mini_test/q1.cpp) |
 | Programmers | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | 본문·편집기 표시; 제출 미확인 | [20260929_day02_stl_container/practice_02.cpp](20260929_day02_stl_container/practice_02.cpp) |
 | Programmers | [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) | 본문·편집기 표시; 제출 미확인 | [20261011_day14_week2_mini_test/q3.cpp](20261011_day14_week2_mini_test/q3.cpp) |
