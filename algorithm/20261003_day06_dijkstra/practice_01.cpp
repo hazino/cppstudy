@@ -1,18 +1,46 @@
-// Platform: Programmers
-// Problem: 배달
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/12978
-// 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
-// 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
-// 예상 Edge Case:
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-
-// TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
-// 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: 풀이 후 로컬 검증 코드 또는 표준 입출력 풀이를 작성한다.
-    cerr << "TODO: not implemented\n";
-    return 1;  // 빈 skeleton 실행을 정답 통과로 착각하지 않는다.
+using ll = long long;
+const ll INF = LLONG_MAX / 4;
+vector<vector<pair<int,int>>> adj;
+vector<ll> dijkstra(int N, int start, vector<int>& prev) {
+    vector<ll> dist(N+1, INF);
+    dist[1] = 0;
+    
+    priority_queue<pair<ll,int>, vector<pair<ll,int>>, greater<>> pq;
+    pq.push({0, start});
+    
+    while(!pq.empty()) {
+        auto [d, cur] = pq.top();
+        pq.pop();
+        if(d > dist[cur]) continue;
+        for(auto [nxt, w] : adj[cur]) {
+            auto nxt_w = d+w;
+            if(nxt_w < dist[nxt]) {
+                dist[nxt] = nxt_w;
+                prev[nxt] = cur;
+                pq.push({nxt_w, nxt});
+            }
+        }
+    }
+    return dist;
+}
+int solution(int N, vector<vector<int> > road, int K) {
+    int answer = 0;
+    sort(road.begin(), road.end());
+    adj.clear();
+    adj.assign(N+1,{});
+    for(auto n : road) {
+        adj[n[0]].push_back({n[1],n[2]});
+        adj[n[1]].push_back({n[0],n[2]});
+    }
+    vector<int> prev;
+    prev.assign(N+1, -1);
+    auto dist = dijkstra(N,1,prev);
+    for(auto n : dist) {
+        cout << n <<endl;
+        if(n <= K) 
+            answer++; 
+    }
+    return answer;
 }
