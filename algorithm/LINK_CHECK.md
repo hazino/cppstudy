@@ -80,3 +80,11 @@ Day 5의 두 번째 문제를 입국심사 재풀이에서 징검다리 건너�
 | Platform | 문제 | 확인 결과 | 사용 파일 |
 |---|---|---|---|
 | Programmers | [등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669) | 공식 본문 확인; 실행·제출 미확인 | [20261003_day06_dijkstra/practice_03.cpp](20261003_day06_dijkstra/practice_03.cpp) |
+
+## 2026-10-14 해시 보충 링크
+
+아래 공식 페이지의 본문과 C++ 선택 항목을 웹 도구로 확인했다. 브라우저 실행·제출 검증은 수행하지 않았다. 이전 전체 점검 당시의 개수와 결과는 역사적 기록이다.
+
+- [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) — [practice_01.cpp](supplement_hash/practice_01.cpp)
+- [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) — [practice_02.cpp](supplement_hash/practice_02.cpp)
+- [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) — [practice_03.cpp](supplement_hash/practice_03.cpp)
