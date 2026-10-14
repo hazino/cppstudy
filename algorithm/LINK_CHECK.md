@@ -61,8 +61,8 @@ Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈
 | CodeTree | [방향에 맞춰 이동](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-move-in-direction/description) | 본문·편집기 표시; 제출 미확인 | [20261014_day17_speed/q1.cpp](20261014_day17_speed/q1.cpp) |
 | CodeTree | [작은 구슬의 이동](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-small-marble-movement/description) | 본문·편집기 표시; 제출 미확인 | [20261009_day12_simulation/practice_01.cpp](20261009_day12_simulation/practice_01.cpp) |
 | CodeTree | [빙빙 돌며 수로 직사각형 채우기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-snail-number-square/description) | 본문·편집기 표시; 제출 미확인 | [20261009_day12_simulation/practice_02.cpp](20261009_day12_simulation/practice_02.cpp) |
-| CodeTree | [정수 N개의 합 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-2/description) | 본문·편집기 표시; 제출 미확인 | [20261007_day10_prefix_sum/practice_01.cpp](20261007_day10_prefix_sum/practice_01.cpp) |
-| CodeTree | [정수 N개의 합 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-3/description) | 본문·편집기 표시; 제출 미확인 | [20261007_day10_prefix_sum/practice_02.cpp](20261007_day10_prefix_sum/practice_02.cpp) |
+| CodeTree | [정수 N개의 합 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-2/description) | 본문·편집기 표시; 제출 미확인 | Day 10에서 제외됨 (당시 점검 기록) |
+| CodeTree | [정수 N개의 합 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-3/description) | 본문·편집기 표시; 제출 미확인 | Day 10에서 제외됨 (당시 점검 기록) |
 | CodeTree | [문자에 따른 명령 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-text-based-commands2/description) | 본문·편집기 표시; 제출 미확인 | [20261014_day17_speed/q2.cpp](20261014_day17_speed/q2.cpp) |
 
 ## Day 5 추가 문제 확인
@@ -88,3 +88,10 @@ Day 5의 두 번째 문제를 입국심사 재풀이에서 징검다리 건너�
 - [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) — [practice_01.cpp](supplement_hash/practice_01.cpp)
 - [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) — [practice_02.cpp](supplement_hash/practice_02.cpp)
 - [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) — [practice_03.cpp](supplement_hash/practice_03.cpp)
+
+## 2026-10-15 Day 10 Programmers 전환
+
+기존 CodeTree 2문제를 교체했다. 아래 공식 본문과 C++ 선택 항목을 웹 도구로 확인했으며, 실행·제출은 검증하지 않았다. 기존 전체 점검 개수는 당시 기록이다.
+
+- [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870) — [practice_01.cpp](20261007_day10_prefix_sum/practice_01.cpp)
+- [연속 펄스 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/161988) — [practice_02.cpp](20261007_day10_prefix_sum/practice_02.cpp)

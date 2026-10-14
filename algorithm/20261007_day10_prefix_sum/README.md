@@ -18,16 +18,16 @@
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| CodeTree | [정수 N개의 합 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-2/description) | Easy | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
-| CodeTree | [정수 N개의 합 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-3/description) | Easy | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
+| Programmers | [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870) | 실전 | 40분 | 연속 구간 합과 인덱스 경계 처리 | `practice_01.cpp` |
+| Programmers | [연속 펄스 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/161988) | 도전 | 60분 | 누적합 응용과 최대 구간 합, long long 사용 | `practice_02.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+난이도는 이 계획의 학습 기준이며 공식 등급이 아니다. 두 문제 모두 Programmers에서 푼다. 첫 문제는 누적합과 탐색을 결합하거나 투 포인터로 접근할 수 있으며, 누적합 배열만 만든다고 탐색 비용이 사라지는 것은 아니다. 두 번째는 누적합 또는 DP로 풀 수 있는 응용 문제다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 
 ## 권장 시간
 
-20분 No IntelliSense 손코딩 → 40분 기본 문제 → 45분 실전 문제 → 15분 오답·problem_log 기록 (총 120분). 두 번째 문제가 부담되면 첫 문제의 구간 질의를 바꿔 재작성한다.
+20분 누적합 손코딩 → 연속된 부분 수열의 합 40분 → 연속 펄스 부분 수열의 합 60분 → 로그 15분 (총 135분). 두 번째는 기존 문제보다 어려운 응용 문제이므로 시간이 부족하면 다음 학습 시간에 이어서 푼다.
 
 ## 자주 하는 실수
 
