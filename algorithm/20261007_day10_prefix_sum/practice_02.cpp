@@ -1,18 +1,37 @@
-// Platform: Programmers
-// Problem: 연속 펄스 부분 수열의 합
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/161988
-// 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
-// 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
-// 예상 Edge Case:
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-// TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
-// 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: 풀이 후 로컬 검증 코드 또는 표준 입출력 풀이를 작성한다.
-    cerr << "TODO: not implemented\n";
-    return 1;  // 빈 skeleton 실행을 정답 통과로 착각하지 않는다.
+using ll = long long;
+
+long long solution(vector<int> sequence) {
+    long long answer = 0;
+    int i = 0;   
+    int sz = sequence.size();
+    
+    for(auto& n : sequence) {
+        i %=2;
+        if(i++ == 1) {
+            n *= -1;
+        }
+    }
+    ll prefix = 0;
+    ll minPrefix = 0;
+    for(auto n : sequence) {
+        prefix += n;
+        answer = max(answer, prefix - minPrefix);
+        minPrefix = min(minPrefix, prefix);
+    }  
+    
+    for(auto& n : sequence) {
+        n *= -1;
+    }
+    prefix = 0;
+    minPrefix = 0;
+    for(auto n : sequence) {
+        prefix += n;
+        answer = max(answer, prefix - minPrefix);
+        minPrefix = min(minPrefix, prefix);
+    }  
+    
+    return answer;
 }
