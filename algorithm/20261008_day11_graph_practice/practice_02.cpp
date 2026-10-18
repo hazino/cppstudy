@@ -1,6 +1,6 @@
 // Platform: Programmers
-// Problem: 배달 (응용 재풀이)
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/12978
+// Problem: 가장 먼 노드
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/49189
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:

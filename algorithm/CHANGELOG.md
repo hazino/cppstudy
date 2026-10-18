@@ -1,5 +1,9 @@
 # 변경 파일 목록 — CodeTree / Programmers 전환
 
+## 2026-10-18 Day 11 문제 교체
+
+- 이미 푼 배달 재풀이를 Programmers 가장 먼 노드로 교체했다. README, practice_02.cpp, 링크 점검 기록을 갱신했다. 풀이 코드는 추가하지 않았다.
+
 ## 2026-10-15 Day 10 문제 전환
 
 - Day 10의 모든 온라인 문제를 Programmers의 연속된 부분 수열의 합, 연속 펄스 부분 수열의 합으로 교체했다.

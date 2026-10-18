@@ -33,7 +33,7 @@ Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈
 | Programmers | [야근 지수](https://school.programmers.co.kr/learn/courses/30/lessons/12927) | 본문·편집기 표시; 제출 미확인 | [20261015_day18_mock_test1/c.cpp](20261015_day18_mock_test1/c.cpp) |
 | Programmers | [이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930) | 사용자: 404 / 확인 브라우저: 본문·편집기 표시 — 불일치 | [20260928_day01_stl_basic/practice_02.cpp](20260928_day01_stl_basic/practice_02.cpp), [20261014_day17_speed/q4.cpp](20261014_day17_speed/q4.cpp) |
 | Programmers | [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945) | 본문·편집기 표시; 제출 미확인 | [20261006_day09_dp/practice_01.cpp](20261006_day09_dp/practice_01.cpp) |
-| Programmers | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | 본문·편집기 표시; 제출 미확인 | [20261003_day06_dijkstra/practice_01.cpp](20261003_day06_dijkstra/practice_01.cpp), [20261008_day11_graph_practice/practice_02.cpp](20261008_day11_graph_practice/practice_02.cpp) |
+| Programmers | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | 본문·편집기 표시; 제출 미확인 | [20261003_day06_dijkstra/practice_01.cpp](20261003_day06_dijkstra/practice_01.cpp) |
 | Programmers | [예산](https://school.programmers.co.kr/learn/courses/30/lessons/12982) | 본문·편집기 표시; 제출 미확인 | [20261014_day17_speed/q5.cpp](20261014_day17_speed/q5.cpp) |
 | Programmers | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540) | 본문·편집기 표시; 제출 미확인 | [20261011_day14_week2_mini_test/q2.cpp](20261011_day14_week2_mini_test/q2.cpp) |
 | Programmers | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | 본문·편집기 표시; 제출 미확인 | [20261001_day04_grid_bfs/practice_02.cpp](20261001_day04_grid_bfs/practice_02.cpp), [20261015_day18_mock_test1/d.cpp](20261015_day18_mock_test1/d.cpp) |
@@ -95,3 +95,7 @@ Day 5의 두 번째 문제를 입국심사 재풀이에서 징검다리 건너�
 
 - [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870) — [practice_01.cpp](20261007_day10_prefix_sum/practice_01.cpp)
 - [연속 펄스 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/161988) — [practice_02.cpp](20261007_day10_prefix_sum/practice_02.cpp)
+
+## 2026-10-18 Day 11 중복 문제 교체
+
+배달 재풀이를 [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)로 교체했다. [사용 파일](20261008_day11_graph_practice/practice_02.cpp). 웹 도구로 공식 본문과 C++ 시작 코드를 확인했으며 실행·제출은 검증하지 않았다. 기존 전체 점검 개수는 당시 기록이다.

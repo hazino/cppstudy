@@ -17,7 +17,7 @@ BFS/DFS/Dijkstra 응용과 선택.
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
 | Programmers | [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) | 실전 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
-| Programmers | [배달 (응용 재풀이)](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | 실전 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
+| Programmers | [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189) | 실전 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
 
 Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
 
@@ -28,7 +28,7 @@ Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식
 | CodeTree | 당일 선택 | 개별 문제 링크 기록 | 페이지에서 확인 | 40분 | 조건에 맞는 독립 구현 |
 | CodeTree | 당일 선택 | 개별 문제 링크 기록 | 페이지에서 확인 | 45분 | 경계 사례 검증 |
 
-Day 6에서 배달을 풀었다면 초기 코드를 지운 브라우저에서 다시 작성하고 반례를 추가한다. 새 문제 성과와 재풀이 성과는 구분한다.
+두 번째 문제는 Day 6 배달 재풀이 대신 가장 먼 노드를 풀며, 그래프의 거리 의미와 알고리즘 선택 근거를 기록한다.
 
 CodeTree 문제를 선택하면 같은 `practice_01.cpp`, `practice_02.cpp`의 메타데이터만 바꾸고 풀이한다.
 
