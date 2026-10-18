@@ -1,18 +1,51 @@
-// Platform: Programmers
-// Problem: 가장 먼 노드
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/49189
-// 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
-// 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
-// 예상 Edge Case:
-#include <iostream>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-// TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
-// 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: 풀이 후 로컬 검증 코드 또는 표준 입출력 풀이를 작성한다.
-    cerr << "TODO: not implemented\n";
-    return 1;  // 빈 skeleton 실행을 정답 통과로 착각하지 않는다.
+using ll = long long;
+const ll ENF = LLONG_MAX / 4;
+using node = pair<ll, int>;
+bool visited[20001] = {false};
+
+int bfs(int n, const vector<vector<int>>& info_) {
+    queue<node> q;
+    vector<ll> arr(n+1, ENF);
+    q.push({0,1});
+    visited[1] = true;
+    int mval = -1;
+    int cnt = 0;
+    while(!q.empty()) {
+        auto [dist, p] = q.front();
+        q.pop();     
+        arr[p] = dist;     
+        for(auto c : info_[p]) {
+            auto ndist = dist + 1;
+            auto np = c;
+            if(visited[np] == true) continue;
+            visited[np] = true;
+            arr[np] = ndist;
+            q.push({ndist, np});
+        }
+    }
+    
+    for(int i = 1; i <=n; i++) {
+        cout << i << ":"<<arr[i]<<endl;
+        if(arr[i] >mval)  {mval = arr[i]; cnt =1;}
+        else if(arr[i] == mval) {cnt++;}
+    }
+    return cnt;
+}
+
+int solution(int n, vector<vector<int>> edge) {
+    int answer = 0;
+    vector<vector<int>> info_(n+1);
+    for(auto a : edge) {
+        int aa = a[0];
+        int bb = a[1];
+        info_[aa].push_back(bb);
+        info_[bb].push_back(aa);
+    }
+    for(int i = 0; i <=20000; i++) visited[i] = false;
+    answer = bfs(n, info_);
+    return answer;
 }
