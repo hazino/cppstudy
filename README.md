@@ -1,12 +1,12 @@
 # 현대모비스 SW 코딩테스트 대비
 
-2026-09-28 시작 · C++17 · 하루 2시간 · CodeTree 우선 · Programmers 병행.
+2026-09-28 시작 · C++17 · 하루 2시간 · Programmers 전용.
 
 [20일 학습 계획 및 실행 방법](algorithm/README.md) · [풀이 기록](algorithm/problem_log.md) · [변경 파일 목록](algorithm/CHANGELOG.md)
 
 학습 자료는 기존 `algorithm/`에 유지한다. 루트의 `src/`, `thread/`, `message/`는 기존 프로젝트다.
 
-브라우저에서 직접 풀고, 자동완성·AI 없이 핵심 코드를 작성한다. LeetCode는 선택 보충이다.
+브라우저에서 직접 풀고, 자동완성·AI 없이 핵심 코드를 작성한다.
 
 ## 최종 완료 기준
 

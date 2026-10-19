@@ -1,6 +1,6 @@
-// Platform: CodeTree
-// Problem: 격자 위의 편안한 상태
-// URL: https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-comfortable-state-on-the-grid/description
+// Platform: Programmers
+// Problem: 크레인 인형뽑기 게임
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/64061
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:

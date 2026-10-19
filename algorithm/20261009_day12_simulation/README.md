@@ -16,12 +16,12 @@
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| CodeTree | [작은 구슬의 이동](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-small-marble-movement/description) | Medium | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
-| CodeTree | [빙빙 돌며 수로 직사각형 채우기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-snail-number-square/description) | Hard | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
+| Programmers | [[PCCP 기출문제] 1번 / 붕대 감기](https://school.programmers.co.kr/learn/courses/30/lessons/250137) | 기본 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
+| Programmers | [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | 실전 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
-구현 중점일이다. 두 CodeTree 문제를 브라우저에서 직접 작성하고 상태 변화와 규칙 적용 순서를 손으로 확인한다. Hard 표기는 이 레슨 안의 난이도이며 고급 알고리즘을 추가하는 뜻이 아니다.
+구현 중점일이다. 붕대 감기와 행렬 테두리 회전하기를 브라우저에서 직접 작성하고 상태 변화와 규칙 적용 순서를 손으로 확인한다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 

@@ -1,6 +1,6 @@
-// Platform: CodeTree
-// Problem: 빙빙 돌며 수로 직사각형 채우기
-// URL: https://www.codetree.ai/ko/trails/complete/curated-cards/intro-snail-number-square/description
+// Platform: Programmers
+// Problem: 행렬 테두리 회전하기
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/77485
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:

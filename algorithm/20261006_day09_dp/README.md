@@ -19,7 +19,7 @@ State, 점화식, Memoization, Bottom-up.
 | Programmers | [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945) | 기본 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
 | Programmers | [멀리 뛰기](https://school.programmers.co.kr/learn/courses/30/lessons/12914) | 기본 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
 기존 dp1.cpp에는 과제와 겹치는 완성 예제가 있으므로 첫 풀이 전에는 열지 않는다. State·초기값·점화식 정의에 집중한다.
 

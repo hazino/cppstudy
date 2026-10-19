@@ -19,18 +19,10 @@ BFS/DFS/Dijkstra 응용과 선택.
 | Programmers | [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163) | 실전 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
 | Programmers | [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189) | 실전 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
-
-**CodeTree 우선 선택:** [공식 학습 사이트](https://www.codetree.ai/ko)에서 Trail 4 → Chapter 3 DFS / Chapter 4 BFS 또는 Trail 5 → Chapter 5 Shortest Path의 접근 가능한 기본 문제를 선택한다. 2026-09-28에는 과정 탐색 중 로그인·이용권 안내가 표시되어 개별 그래프 문제의 이름·URL·난이도를 검증하지 못했다. 아래 표는 선택 기록용이며 홈페이지를 개별 문제 URL로 취급하지 않는다. 선택이 어렵거나 접근 권한이 없으면 위의 확인된 대체 문제를 바로 사용한다.
-
-| Platform | Problem Name | Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 |
-|---|---|---|---|---|---|
-| CodeTree | 당일 선택 | 개별 문제 링크 기록 | 페이지에서 확인 | 40분 | 조건에 맞는 독립 구현 |
-| CodeTree | 당일 선택 | 개별 문제 링크 기록 | 페이지에서 확인 | 45분 | 경계 사례 검증 |
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
 두 번째 문제는 Day 6 배달 재풀이 대신 가장 먼 노드를 풀며, 그래프의 거리 의미와 알고리즘 선택 근거를 기록한다.
 
-CodeTree 문제를 선택하면 같은 `practice_01.cpp`, `practice_02.cpp`의 메타데이터만 바꾸고 풀이한다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 

@@ -4,7 +4,7 @@
 
 ```text
 Date:
-Platform: CodeTree / Programmers / LeetCode (선택)
+Platform: Programmers
 Problem: 이름 / URL
 Difficulty:
 Result: 성공 / 부분 성공 / 실패 / 로컬 검증만 완료

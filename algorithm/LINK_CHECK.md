@@ -1,4 +1,8 @@
-# 문제 링크 점검 — 2026-10-05 (Asia/Seoul)
+# 문제 링크 점검 이력
+
+2026-10-18부터 현행 학습 문제는 모두 Programmers다. 아래 2026-10-05 목록은 당시 접속 점검 기록이며 이후 교체된 문제와 파일 연결은 현재 과제를 의미하지 않는다. 현행 목록은 각 날짜 README를 따른다.
+
+## 최초 점검 — 2026-10-05 (Asia/Seoul)
 
 저장소의 중복을 제외한 문제 링크 38개를 Codex 내장 브라우저의 로그아웃 상태에서 실제로 열어 확인했다. 검색 결과나 HTTP 응답 코드만으로 판정하지 않았다.
 
@@ -55,15 +59,15 @@ Day 4의 두 번째 문제도 게임 맵 최단거리 재풀이에서 미로 탈
 | Programmers | [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) | 본문·편집기 표시; 제출 미확인 | [20261013_day16_mixed/q3.cpp](20261013_day16_mixed/q3.cpp) |
 | Programmers | [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491) | 본문·편집기 표시; 제출 미확인 | [20261010_day13_backtracking/practice_01.cpp](20261010_day13_backtracking/practice_01.cpp) |
 | Programmers | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | 본문·편집기 표시; 제출 미확인 | [20261010_day13_backtracking/practice_02.cpp](20261010_day13_backtracking/practice_02.cpp) |
-| CodeTree | [되돌아오기 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-come-back-2/description) | 본문·편집기 표시; 제출 미확인 | [20261004_day07_week1_review/q2.cpp](20261004_day07_week1_review/q2.cpp) |
-| CodeTree | [되돌아오기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-come-back/description) | 본문·편집기 표시; 제출 미확인 | [20261004_day07_week1_review/q1.cpp](20261004_day07_week1_review/q1.cpp) |
-| CodeTree | [격자 위의 편안한 상태](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-comfortable-state-on-the-grid/description) | 본문·편집기 표시; 제출 미확인 | [20261004_day07_week1_review/q3.cpp](20261004_day07_week1_review/q3.cpp), [20261015_day18_mock_test1/a.cpp](20261015_day18_mock_test1/a.cpp) |
-| CodeTree | [방향에 맞춰 이동](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-move-in-direction/description) | 본문·편집기 표시; 제출 미확인 | [20261014_day17_speed/q1.cpp](20261014_day17_speed/q1.cpp) |
-| CodeTree | [작은 구슬의 이동](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-small-marble-movement/description) | 본문·편집기 표시; 제출 미확인 | [20261009_day12_simulation/practice_01.cpp](20261009_day12_simulation/practice_01.cpp) |
-| CodeTree | [빙빙 돌며 수로 직사각형 채우기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-snail-number-square/description) | 본문·편집기 표시; 제출 미확인 | [20261009_day12_simulation/practice_02.cpp](20261009_day12_simulation/practice_02.cpp) |
+| CodeTree | [되돌아오기 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-come-back-2/description) | 본문·편집기 표시; 제출 미확인 | 배정 해제 (과거 점검 기록) |
+| CodeTree | [되돌아오기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-come-back/description) | 본문·편집기 표시; 제출 미확인 | 배정 해제 (과거 점검 기록) |
+| CodeTree | [격자 위의 편안한 상태](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-comfortable-state-on-the-grid/description) | 본문·편집기 표시; 제출 미확인 | 배정 해제 (과거 점검 기록), 배정 해제 (과거 점검 기록) |
+| CodeTree | [방향에 맞춰 이동](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-move-in-direction/description) | 본문·편집기 표시; 제출 미확인 | 배정 해제 (과거 점검 기록) |
+| CodeTree | [작은 구슬의 이동](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-small-marble-movement/description) | 본문·편집기 표시; 제출 미확인 | 배정 해제 (과거 점검 기록) |
+| CodeTree | [빙빙 돌며 수로 직사각형 채우기](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-snail-number-square/description) | 본문·편집기 표시; 제출 미확인 | 배정 해제 (과거 점검 기록) |
 | CodeTree | [정수 N개의 합 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-2/description) | 본문·편집기 표시; 제출 미확인 | Day 10에서 제외됨 (당시 점검 기록) |
 | CodeTree | [정수 N개의 합 3](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-sum-of-n-integers-3/description) | 본문·편집기 표시; 제출 미확인 | Day 10에서 제외됨 (당시 점검 기록) |
-| CodeTree | [문자에 따른 명령 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-text-based-commands2/description) | 본문·편집기 표시; 제출 미확인 | [20261014_day17_speed/q2.cpp](20261014_day17_speed/q2.cpp) |
+| CodeTree | [문자에 따른 명령 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-text-based-commands2/description) | 본문·편집기 표시; 제출 미확인 | 배정 해제 (과거 점검 기록) |
 
 ## Day 5 추가 문제 확인
 
@@ -99,3 +103,18 @@ Day 5의 두 번째 문제를 입국심사 재풀이에서 징검다리 건너�
 ## 2026-10-18 Day 11 중복 문제 교체
 
 배달 재풀이를 [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)로 교체했다. [사용 파일](20261008_day11_graph_practice/practice_02.cpp). 웹 도구로 공식 본문과 C++ 시작 코드를 확인했으며 실행·제출은 검증하지 않았다. 기존 전체 점검 개수는 당시 기록이다.
+
+## 2026-10-18 전체 Programmers 전환
+
+남은 타 사이트 문제 8개를 교체했다. 아래 공식 페이지의 문제 본문을 웹 도구로 확인했다. 온라인 실행·제출은 검증하지 않았다.
+
+| 날짜 | 문제 | 파일 |
+|---|---|---|
+| 20261004_day07_week1_review | [공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928) | [q1.cpp](20261004_day07_week1_review/q1.cpp) |
+| 20261004_day07_week1_review | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990) | [q2.cpp](20261004_day07_week1_review/q2.cpp) |
+| 20261004_day07_week1_review | [대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586) | [q3.cpp](20261004_day07_week1_review/q3.cpp) |
+| 20261009_day12_simulation | [[PCCP 기출문제] 1번 / 붕대 감기](https://school.programmers.co.kr/learn/courses/30/lessons/250137) | [practice_01.cpp](20261009_day12_simulation/practice_01.cpp) |
+| 20261009_day12_simulation | [행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | [practice_02.cpp](20261009_day12_simulation/practice_02.cpp) |
+| 20261014_day17_speed | [가운데 글자 가져오기](https://school.programmers.co.kr/learn/courses/30/lessons/12903) | [q1.cpp](20261014_day17_speed/q1.cpp) |
+| 20261014_day17_speed | [하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947) | [q2.cpp](20261014_day17_speed/q2.cpp) |
+| 20261015_day18_mock_test1 | [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) | [a.cpp](20261015_day18_mock_test1/a.cpp) |

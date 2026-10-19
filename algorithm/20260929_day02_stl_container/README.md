@@ -24,7 +24,7 @@ stack, queue, deque, priority_queue, set, map, unordered_map.
 | Programmers | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | 실전 | 20분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
 | Programmers | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | 실전 | 45분 | 조건 분석과 독립 구현 | `practice_03.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
 Programmers 고득점 Kit Stack/Queue 및 Heap 연습을 포함한다. 먼저 직접 풀고 컨테이너 선택 이유를 사후 기록한다.
 

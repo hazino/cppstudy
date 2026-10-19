@@ -19,7 +19,7 @@ sort + greedy, 선택의 타당성, 반례.
 | Programmers | [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) | 기본 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
 | Programmers | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | 실전 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 

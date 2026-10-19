@@ -20,9 +20,9 @@
 | Programmers | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540) | 실전 | 30분 | 조건 분석과 독립 구현 | `q2.cpp` |
 | Programmers | [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587) | 실전 | 30분 | 조건 분석과 독립 구현 | `q3.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
-브라우저에서 문제 탭만 열고 유형 태그·강의·힌트·해설·AI·기존 예제를 닫는다. 유형별 출제표는 제공하지 않는다. CodeTree 링크의 단원 제목도 가리고, 이미 풀었던 문항은 익숙한 문제로 별도 기록한다.
+브라우저에서 문제 탭만 열고 유형 태그·강의·힌트·해설·AI·기존 예제를 닫는다. 유형별 출제표는 제공하지 않는다. 이미 풀었던 문항은 익숙한 문제로 별도 기록한다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 

@@ -16,17 +16,17 @@ BFS, DFS, Grid BFS, Binary Search, Dijkstra를 자동완성 없이 작성한다.
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| CodeTree | [되돌아오기](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-come-back/description) | Easy | 40분 | 조건 분석과 독립 구현 | `q1.cpp` |
-| CodeTree | [되돌아오기 2](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-come-back-2/description) | Easy | 45분 | 조건 분석과 독립 구현 | `q2.cpp` |
-| CodeTree | [격자 위의 편안한 상태](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-comfortable-state-on-the-grid/description) | Medium | 30분 | 조건 분석과 독립 구현 | `q3.cpp` |
+| Programmers | [공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928) | 기본 | 40분 | 조건 분석과 독립 구현 | `q1.cpp` |
+| Programmers | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990) | 기본 | 45분 | 조건 분석과 독립 구현 | `q2.cpp` |
+| Programmers | [대충 만든 자판](https://school.programmers.co.kr/learn/courses/30/lessons/160586) | 실전 | 30분 | 조건 분석과 독립 구현 | `q3.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 
 ## 권장 시간
 
-20분 STL·핵심 알고리즘 Drill → q1 40분 → q2 45분 → 로그 15분. q3는 선택 교체 문제다. Day 18의 a를 처음 보는 문제로 남기려면 q3는 열지 않는다.
+20분 STL·핵심 알고리즘 Drill → q1 40분 → q2 45분 → 로그 15분. q3는 선택 교체 문제다. q3는 시간이 남거나 추가 연습이 필요할 때 푼다.
 
 ## 자주 하는 실수
 

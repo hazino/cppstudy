@@ -16,15 +16,15 @@
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| CodeTree | [격자 위의 편안한 상태](https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-comfortable-state-on-the-grid/description) | Medium | 15분 | 조건 분석과 독립 구현 | `a.cpp` |
+| Programmers | [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) | 기본 | 15분 | 조건 분석과 독립 구현 | `a.cpp` |
 | Programmers | [방문 길이](https://school.programmers.co.kr/learn/courses/30/lessons/49994) | 실전 | 20분 | 조건 분석과 독립 구현 | `b.cpp` |
 | Programmers | [야근 지수](https://school.programmers.co.kr/learn/courses/30/lessons/12927) | 실전 | 20분 | 조건 분석과 독립 구현 | `c.cpp` |
 | Programmers | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | 실전 | 20분 | 조건 분석과 독립 구현 | `d.cpp` |
 | Programmers | [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) | 도전 | 20분 | 조건 분석과 독립 구현 | `e.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
-브라우저에서 문제 탭만 열고 유형 태그·강의·힌트·해설·AI·기존 예제를 닫는다. 유형별 출제표는 제공하지 않는다. CodeTree 링크의 단원 제목도 가리고, 이미 풀었던 문항은 익숙한 문제로 별도 기록한다.
+브라우저에서 문제 탭만 열고 유형 태그·강의·힌트·해설·AI·기존 예제를 닫는다. 유형별 출제표는 제공하지 않는다. 이미 풀었던 문항은 익숙한 문제로 별도 기록한다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 

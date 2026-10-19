@@ -1,6 +1,6 @@
-// Platform: CodeTree
-// Problem: 되돌아오기
-// URL: https://www.codetree.ai/ko/trails/complete/curated-cards/challenge-come-back/description
+// Platform: Programmers
+// Problem: 공원 산책
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/172928
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:

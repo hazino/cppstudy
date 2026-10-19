@@ -16,13 +16,13 @@
 
 | Platform | Problem Name / Problem URL | Difficulty | Recommended Time | 핵심 학습 목표 | 파일 |
 |---|---|---|---|---|---|
-| CodeTree | [방향에 맞춰 이동](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-move-in-direction/description) | Easy | 10분 | 조건 분석과 독립 구현 | `q1.cpp` |
-| CodeTree | [문자에 따른 명령 2](https://www.codetree.ai/ko/trails/complete/curated-cards/intro-text-based-commands2/description) | Easy | 15분 | 조건 분석과 독립 구현 | `q2.cpp` |
+| Programmers | [가운데 글자 가져오기](https://school.programmers.co.kr/learn/courses/30/lessons/12903) | 기본 | 10분 | 조건 분석과 독립 구현 | `q1.cpp` |
+| Programmers | [하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947) | 기본 | 15분 | 조건 분석과 독립 구현 | `q2.cpp` |
 | Programmers | [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666) | 기본 | 15분 | 조건 분석과 독립 구현 | `q3.cpp` |
 | Programmers | [이상한 문자 만들기 (속도 재풀이)](https://school.programmers.co.kr/learn/courses/30/lessons/12930) | 기본 | 20분 | 조건 분석과 독립 구현 | `q4.cpp` |
 | Programmers | [예산](https://school.programmers.co.kr/learn/courses/30/lessons/12982) | 기본 | 25분 | 조건 분석과 독립 구현 | `q5.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
 [플랫폼별 제출·로컬 검증 방법](../README.md#플랫폼별-제출과-로컬-검증)을 따른다. 온라인 문제의 전체 지문은 저장소에 복사하지 않는다.
 

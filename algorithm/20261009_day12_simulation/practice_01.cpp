@@ -1,6 +1,6 @@
-// Platform: CodeTree
-// Problem: 작은 구슬의 이동
-// URL: https://www.codetree.ai/ko/trails/complete/curated-cards/intro-small-marble-movement/description
+// Platform: Programmers
+// Problem: [PCCP 기출문제] 1번 / 붕대 감기
+// URL: https://school.programmers.co.kr/learn/courses/30/lessons/250137
 // 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
 // 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
 // 예상 Edge Case:

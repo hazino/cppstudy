@@ -19,7 +19,7 @@ permutation, combination, 선택과 복구.
 | Programmers | [최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491) | 기본 | 40분 | 조건 분석과 독립 구현 | `practice_01.cpp` |
 | Programmers | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | 실전 | 45분 | 조건 분석과 독립 구현 | `practice_02.cpp` |
 
-Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다. CodeTree의 Easy/Medium/Hard는 해당 페이지 표기다.
+Difficulty의 기본·실전·도전은 이 계획의 학습 기준이며 공식 등급이 아니다.
 
 No IntelliSense 시간에 순열·조합·기본 Backtracking을 모두 작성한다. N-Queen은 선택이며 고급 탐색은 추가하지 않는다.
 
