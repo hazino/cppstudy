@@ -1,18 +1,32 @@
-// Platform: Programmers
-// Problem: 최소직사각형
-// URL: https://school.programmers.co.kr/learn/courses/30/lessons/86491
-// 먼저 브라우저 편집기에서 직접 작성하고, 풀이 후 이 파일에 기록한다.
-// 입력 크기 / First Approach / Selected Algorithm / Time Complexity:
-// 예상 Edge Case:
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+int answer = 1e7;
+bool visited[10005][2];
+void solve(int idx, int jdx, 
+           int ival, int jval, const vector<vector<int>>& sizes){
+    int ot =0;
+    auto dx = max(ival, sizes[idx][jdx]);
+    if(jdx ==0)
+        ot = 1;
+    auto dy = max(jval, sizes[idx][ot]);
 
-// TODO: 공식 C++ 시작 코드에 맞는 함수 시그니처 또는 입력 처리를 직접 작성한다.
-// 아래 main은 로컬 자리표시자다. 함수 제출 플랫폼에서는 온라인에 제출하지 않는다.
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // TODO: 풀이 후 로컬 검증 코드 또는 표준 입출력 풀이를 작성한다.
-    cerr << "TODO: not implemented\n";
-    return 1;  // 빈 skeleton 실행을 정답 통과로 착각하지 않는다.
+    if(sizes.size()-1 == idx) {
+        if (answer > dx* dy) answer = dx*dy;
+        return;
+    }
+    
+    solve(idx+1, 0, dx,dy,sizes);
+    solve(idx+1, 1, dx,dy,sizes);
+}
+
+int solution(vector<vector<int>> sizes) {
+    int width = 0;
+    int height = 0;
+
+    for (const auto& size : sizes) {
+        width = max(width, max(size[0], size[1]));
+        height = max(height, min(size[0], size[1]));
+    }
+
+    return width * height;
 }
